@@ -1,0 +1,163 @@
+/*#2196f3*/
+*{
+	margin: 	0;
+}
+@font-face {
+  font-family: 'gotham-book-webfont';
+  src: url('../fonts/gotham-book-webfont.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'gotham-bold-webfont';
+  src: url('../fonts/gotham-bold-webfont.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'gotham-black-webfont';
+  src: url('../fonts/gotham-black-webfont.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'gotham-medium-webfont';
+  src: url('../fonts/gotham-medium-webfont.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Gotham-Rounded-Bold';
+  src: url('../fonts/Gotham-Rounded-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Gotham-Rounded-Medium';
+  src: url('../fonts/Gotham-Rounded-Medium.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'gotham-book-italic';
+  src: url('../fonts/gotham-book-italic.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Gotham Ultra';
+  src: url('../fonts/Gotham Ultra.otf') format('opentype');
+}
+body{
+  font-family: 'gotham-book-webfont';
+}
+header{
+  border-bottom: 1px solid #eee;  
+  position: fixed;
+  width: 100%;
+  z-index: 99;
+  background: rgb(0 0 0 / 28%);
+}
+nav{
+  padding: 0;
+}
+nav img{
+  width: 100px;
+}
+.navbar-light .navbar-nav .nav-link{
+  font-size: 16px;
+  color:#fff;
+  padding: 0 20px;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+  color: #2196f3;
+}
+main .carousel {
+  position: relative;
+}
+main .carousel .carousel-inner img{
+  height: 100vh;
+  object-fit: cover;
+    background-image: linear-gradient(120deg, #eaee44, #33d0ff);
+}
+main .carousel .carousel-inner .carousel-item::before{
+  content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(120deg, #eaee44, #33d0ff);
+    xbackground-color: #33d0ff;
+    opacity: .7;
+}
+.form-sec h3{
+  font-size: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'gotham-bold-webfont';
+}
+.form-sec{
+  position: absolute;
+  left:  10rem;
+  top:13rem;
+  background: #fff;
+  padding: 2rem 2rem;
+  border-radius: .3rem;
+  width: 26%;
+  border: 3px solid #2196f3;
+}
+.btn{
+  background: #2196f3;
+  padding: 10px 50px;
+  width: 100%;
+  color: #fff;
+}
+.form-sec .form-control{
+  border: none;
+  border-radius: 0;
+  background: transparent;
+  border-bottom: 1px solid #2196f3;
+}
+.header h1{
+  margin: 2rem ;
+  font-size: 30px;
+  font-family: 'gotham-bold-webfont';
+  text-align: center;
+  color: #2196f3;
+}
+.games .games-content{
+  border: 2px solid #2196f3;  
+  margin: 1.4rem 0;
+  background: #f6f6f6;
+}
+.games .games-content img{
+  width: 100%;
+  object-fit: cover;
+  object-position:  center;
+  height: 300px;
+}
+.games .games-content .gc{
+  padding: 20px;
+  text-align: center;
+}
+.games .games-content h2{
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0;
+}
+footer{
+  background: #000;
+  padding: 4rem 0;
+}
+footer ul li{
+  list-style-type: none;
+  color: #fff;
+}
+footer ul{
+  padding: 0;
+}
+footer  h2{
+  font-size: 20px;
+  color: #fff;
+}
+footer ul li a{
+  color: #fff;
+  text-decoration: none;
+  font-size: 13px;
+}
